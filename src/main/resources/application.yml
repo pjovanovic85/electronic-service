@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url:jdbc:mysql://localhost:3306/servisdb
+    driver-clas-name: com.mysql.jdbc.Driver
+    username:root
+    password:chempres
+  jpa:
+    hibernate:
+       ddl-auto: create-drop
+      show-sql: true
+      properties:
+        hibernate
+       format_sql: true
+       database: mysql
+       databaseplatform: org.hibernate.dialect.MySQLDialect
